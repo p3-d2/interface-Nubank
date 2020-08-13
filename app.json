@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "interface_Nubank",
-    "slug": "interface_Nubank",
+    "name": "interface-Nubank",
+    "slug": "interface-Nubank",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,7 +15,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.Ph-frontEnd.interface_Nubank"
+      "package": "com.Ph-frontEnd.interface-Nubank"
     }
   }
 }
