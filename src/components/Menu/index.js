@@ -3,9 +3,14 @@ import Icon from 'react-native-vector-icons/MaterialIcons'
 
 import { Container, Nav, NavItem, NavText, SignOutButton, SignOutButtonText } from './styles'
 
-export default function Menu() {
+export default function Menu({ translateY }) {
   return (
-    <Container>
+    <Container style={{
+      opacity: translateY.interpolate({
+        inputRange: [0, 150],
+        outputRange: [0, 1]
+      })
+    }}>
       <Nav>
         <NavItem>
           <Icon name='help-outline' size={20} color='#fff' />
